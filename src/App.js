@@ -9,8 +9,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Welcome />
-        <Greet />
+        <Welcome name="Jackson" />
+        <Greet name="Luffy" />
+        <Greet name="Sanji">
+          <span>Vin Smoke Sanji</span>
+        </Greet>
         <GreetingComponent />
         <Hello />
       </div>
