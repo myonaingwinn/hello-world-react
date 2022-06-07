@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Greet } from "./components/Greet"; // exact name only
-import GreetingComponent from "./components/Greeting"; // can use alias name
+import { Greet } from "./components/functional_components/Greet"; // exact name only
+import GreetingComponent from "./components/functional_components/Greeting"; // can use alias name
 
 class App extends Component {
   render() {
