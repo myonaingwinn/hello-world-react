@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import EventBind from "./components/binding_event_handlers/EventBind";
+import ParentComponent from "./components/method_as_props/ParentComponent";
+// import EventBind from "./components/binding_event_handlers/EventBind";
 // import Person from "./components/destructuring_props_state/Person";
 // import { Person2 } from "./components/destructuring_props_state/Person";
 // import Invitation from "./components/destructuring_props_state/PersonClass";
@@ -17,7 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <EventBind />
+        <ParentComponent />
+        {/* <EventBind /> */}
         {/* <FunctionClick />
         <ClassClick /> */}
         {/*       <Invitation name="Aniki" age="30" />
