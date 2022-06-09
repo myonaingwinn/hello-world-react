@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import UserGreeting from "./components/conditional_rendering/UserGreeting";
+import NameList from "./components/list_rendering/NameList";
+// import UserGreeting from "./components/conditional_rendering/UserGreeting";
 // import ParentComponent from "./components/method_as_props/ParentComponent";
 // import EventBind from "./components/binding_event_handlers/EventBind";
 // import Person from "./components/destructuring_props_state/Person";
@@ -19,7 +20,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreeting />
+        <NameList />
+        {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
         {/* <EventBind /> */}
         {/* <FunctionClick />
